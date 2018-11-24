@@ -1,0 +1,340 @@
+#themaincomp{
+    width: 100%;
+    text-align: center;
+    position: relative;
+    background: #e5f4f4;
+}
+
+#themaincomp h1{
+    color:black;
+    padding-top: 100px;
+    padding-bottom: 20px;
+    font-family: fantasy;
+    font-size: 45px;
+}
+
+#monitoring{
+    width: 100%;
+    background: white;
+    height: 500px;
+}
+
+#mon-left{
+    width: 50%;
+    background-image: url(../Images/mon-right1.jpg);
+    background-attachment: fixed;
+    height: 500px;
+    background-size: contain;
+    float: left;
+    position: relative;
+    
+}
+
+#ugandans{
+    background: #ccc;
+    width: 100%;
+    position: absolute;
+    top: 0;
+}
+
+#mon-left h1{
+    font-family: serif;
+     color: brown;
+    text-align: center;
+}
+
+#mon-right{
+    width: 50%;
+    float: left;
+    background: white;
+}
+
+#mon-right h2{
+    font-family: serif;
+    color: brown;
+    text-align: center;
+    padding: 40px 20px;
+    font-size: 35px;
+}
+
+#mon-right p{
+    width: 70%;
+    margin: auto;
+    text-align: justify;
+    line-height: 1.5;
+    color: dimgrey;
+}
+
+#labour-relation{
+    width:100%;
+    height: 400px;
+    background: white;
+}
+
+#labour-left{
+    width: 50%;
+    float: left;
+    clear: left;
+    background: white;
+}
+
+#labour-left h2{
+    font-family: serif;
+    color: brown;
+    text-align: center;
+    padding: 40px 20px;
+    font-size: 35px;
+}
+
+#labour-left p{
+    width: 70%;
+    margin: auto;
+    text-align: justify;
+    line-height: 1.5;
+    color: dimgrey;
+     
+}
+
+#labour-right{
+    width: 50%;
+    float: left;
+    background-image: url('../Images/right2.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    height: 400px;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+#labour-right h1{
+    font-family: serif;
+    color: brown;
+    text-align: center;
+    font-size: 35px;
+}
+
+
+#gender-comp{
+    width: 100%;
+}
+
+#left-gender{
+    width: 50%;
+    float: left;
+    background-image: url('../Images/wemanright.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    height: 400px;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+#left-gender h1{
+    font-family: serif;
+    color: brown;
+    text-align: center;
+    font-size: 35px;
+}
+
+#right-gender h2{
+    font-family: serif;
+    color: brown;
+    text-align: center;
+    padding: 10px 20px;
+    font-size: 35px;
+}
+
+#right-gender p{
+    width: 70%;
+    margin: auto;
+}
+
+#right-gender{
+    text-align: center;
+    width: 50%;
+    float: left;
+    text-align: justify;
+    line-height: 1.5;
+    color: dimgrey;
+     background: white;
+}
+
+
+#environment{
+    width:100%;
+    height: 500px;
+    background: white;
+   
+}
+
+#left-enviro{
+    width: 50%;
+    float: left;
+    background-image: url('../Images/forest.jpg');
+    height: 400px;
+    background-attachment: fixed;
+    position: relative;
+   
+}
+
+#left-enviro h1{
+    font-family: serif;
+    color: brown;
+    text-align: center;
+    font-size: 35px;    
+}
+
+#last-left{
+    width: 50%;
+    float: left;
+    background: white;
+}
+
+#last-left p{
+    width: 70%;
+    margin: auto;
+    text-align: justify;
+    line-height: 1.5;
+    color: dimgrey;
+}
+
+#last-left h2{
+    font-family: serif;
+    color: brown;
+    text-align: center;
+    padding: 10px 20px;
+    font-size: 35px;
+}
+
+#footer{
+    width: 100%;
+    position: fixed;
+    background: #121372;
+    color: white;
+    bottom: 0;
+    z-index: 100000;
+    padding: 10px 0;
+}
+
+#first-footer-box{
+    width: 40%;
+    float: left;
+    padding: 0 20px;
+    box-sizing: border-box;
+}
+
+#form-col1{
+    width: 45%;
+    float: left;
+    margin-right: 10%;
+}
+
+#form-col1 input[type="text"]{
+    padding: 5px;
+    width: 90%;
+    border-radius: 3px;
+    border: none;
+    margin: 10px 0;
+}
+
+#form-col1 input[type="text"]:focus{
+    outline-color: red;
+    outline-style: solid 2px;
+}
+
+#form-col2{
+    width: 45%;
+    float: left;
+}
+
+#form-col2 input[type="text"]{
+    padding: 5px;
+    width: 90%;
+    border-radius: 3px;
+    border: none;
+    margin: 10px 0;
+}
+
+#form-col2 input[type="email"]{
+    padding: 5px;
+    width: 90%;
+    border-radius: 3px;
+    border: none;
+    margin: 10px 0;
+}
+
+#form-col2 input[type="text"]:focus{
+    outline-color: red;
+    outline-style: solid 2px;
+}
+
+.content-msg{
+    width: 97%;
+    height: 110px;
+    display: block;
+    border-radius: 3px;
+    margin: 10px 0;
+    
+}
+
+#first-footer-box input[type="submit"]{
+    padding: 5px;
+    display: block;
+     padding: 10px;
+    background: white;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    box-shadow: 3px 3px #0367bf;
+    margin-top: 20px;
+    color: blue;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+#first-footer-box input[type="submit"]:hover{
+    background: #0367bf;
+    color: white;
+}
+
+#second-footer-box{
+    width: 30%;
+    float: left;
+    text-align: center;
+}
+
+#second-footer-box li{
+    list-style: none;
+}
+
+#last-footer-box{
+    width: 30%;
+    float: left;
+    text-align: center;
+}
+
+
+#last-footer-box p{
+    width: 80%;
+    margin: auto;
+    line-height: 1.5;
+}
+
+#phone{
+    width: 80%;
+    margin: auto;
+}
+
+#phone p{
+    line-height: 1.5;
+    padding: 20px;
+}
+
+.container{
+    width: 100%;
+    margin-bottom: 670px;
+    z-index: 1000000000000000000;
+    height: auto;
+    position: relative;
+    display: block;
+}

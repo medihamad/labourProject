@@ -6,6 +6,10 @@
 
 .container{
     width: 100%;
+    margin-bottom: 1270px;
+    z-index: 1000;
+    height: auto;
+    position: relative;
 }
 
 header{
@@ -13,8 +17,9 @@ header{
     background: #402f73;
     height: 70px;
     position: fixed;
-    z-index: 10000000000;  
+    z-index: 10000000000; 
 }
+
 
 nav{
     float: right;

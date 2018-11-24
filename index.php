@@ -15,7 +15,7 @@
 <div class="container">
     <div class="welcome">
         <header>
-           <img src="Images/banner_1.png"/>
+           <img class="logo" src="Images/banner_1.png"/>
             <nav>
                 <ul>
                     <li><a href="index.php">Home</a></li>

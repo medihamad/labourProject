@@ -16,6 +16,8 @@
 		overflow: hidden;
 	}
 
+
+
 	.cycle-slideshow img{
 		width: 100%;
 	}
@@ -699,4 +701,68 @@ img{
     .second-cols {
         height: 320px;
     }
+    
+   
+}
+
+
+@media screen and (max-width: 910px){
+    
+    header{
+        text-align: center;
+        height: auto;
+    }
+    
+    .logo{
+        
+    }
+    
+    nav{
+        display: block;
+        width: 70%;
+        
+        text-align: center;
+    }
+    
+    .cycle-slideshow img{
+        margin-top: 100px;
+	}
+    
+    .container{
+        margin-bottom: 1540px;
+    }
+    
+    .first-col{
+        width: 100%;
+    }
+    
+    .second-col{
+        width: 100%;
+        text-align: center;
+    }
+    
+    .first-cols{
+        width: 50%;
+        height: 270px;
+    }
+    
+    .second-cols{
+        width: 50%;
+        height: 270px;
+    }
+    
+    .third-cols{
+        width:100%;
+        height: auto;
+    }
+    
+}
+
+
+@media screen and (max-width: 810px){
+    
+    #first-footer-box{
+        width: 50%;
+    }
+    
 }
